@@ -108,6 +108,7 @@ final class AboutPresenter extends OpenVKPresenter
         . "# covered from unauthorized persons (for example, due to\n"
         . "# lack of rights to access the admin panel)\n\n"
         . "User-Agent: *\n"
+        . "Disallow: /assets\n"
         . "Disallow: /albums/create\n"
         . "Disallow: /videos/upload\n"
         . "Disallow: /invite\n"
