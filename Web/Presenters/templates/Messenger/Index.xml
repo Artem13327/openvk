@@ -26,7 +26,7 @@
                 
                 <div class="crp-entry--image">
                     <img src="{$recipient->getAvatarURL('miniscule')}"
-                    alt="Фотография пользователя" />
+                    alt="Фотография пользователя" loading=lazy />
                 </div>
                 <div class="crp-entry--info">
                     <a href="{$recipient->getURL()}">{$recipient->getCanonicalName()}</a><br/>
